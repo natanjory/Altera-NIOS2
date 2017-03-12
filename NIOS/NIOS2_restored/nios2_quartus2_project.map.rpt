@@ -1,0 +1,329 @@
+Analysis & Elaboration report for nios2_quartus2_project
+Sun Mar 12 20:39:15 2017
+Quartus Prime Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Elaboration Summary
+  3. Parallel Compilation
+  4. Analysis & Elaboration Settings
+  5. Analysis & Elaboration Messages
+  6. Analysis & Elaboration Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2016  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Analysis & Elaboration Summary                                                   ;
++------------------------------------+---------------------------------------------+
+; Analysis & Elaboration Status      ; Successful - Sun Mar 12 20:39:15 2017       ;
+; Quartus Prime Version              ; 16.1.0 Build 196 10/24/2016 SJ Lite Edition ;
+; Revision Name                      ; nios2_quartus2_project                      ;
+; Top-level Entity Name              ; mult                                        ;
+; Family                             ; Cyclone IV E                                ;
+; Total logic elements               ; N/A until Partition Merge                   ;
+;     Total combinational functions  ; N/A until Partition Merge                   ;
+;     Dedicated logic registers      ; N/A until Partition Merge                   ;
+; Total registers                    ; N/A until Partition Merge                   ;
+; Total pins                         ; N/A until Partition Merge                   ;
+; Total virtual pins                 ; N/A until Partition Merge                   ;
+; Total memory bits                  ; N/A until Partition Merge                   ;
+; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                   ;
+; Total PLLs                         ; N/A until Partition Merge                   ;
++------------------------------------+---------------------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 2           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
++----------------------------+-------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Elaboration Settings                                                                                          ;
++----------------------------------------------------------------------------+--------------------+------------------------+
+; Option                                                                     ; Setting            ; Default Value          ;
++----------------------------------------------------------------------------+--------------------+------------------------+
+; Device                                                                     ; EP4CE30F23C7       ;                        ;
+; Top-level entity name                                                      ; mult               ; nios2_quartus2_project ;
+; Family name                                                                ; Cyclone IV E       ; Cyclone IV GX          ;
+; Use smart compilation                                                      ; On                 ; Off                    ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                     ;
+; Enable compact report table                                                ; Off                ; Off                    ;
+; Restructure Multiplexers                                                   ; Auto               ; Auto                   ;
+; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                    ;
+; Preserve fewer node names                                                  ; On                 ; On                     ;
+; OpenCore Plus hardware evaluation                                          ; Enable             ; Enable                 ;
+; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001           ;
+; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993              ;
+; State Machine Processing                                                   ; Auto               ; Auto                   ;
+; Safe State Machine                                                         ; Off                ; Off                    ;
+; Extract Verilog State Machines                                             ; On                 ; On                     ;
+; Extract VHDL State Machines                                                ; On                 ; On                     ;
+; Ignore Verilog initial constructs                                          ; Off                ; Off                    ;
+; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000                   ;
+; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                    ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                     ;
+; Infer RAMs from Raw Logic                                                  ; On                 ; On                     ;
+; Parallel Synthesis                                                         ; On                 ; On                     ;
+; DSP Block Balancing                                                        ; Auto               ; Auto                   ;
+; NOT Gate Push-Back                                                         ; On                 ; On                     ;
+; Power-Up Don't Care                                                        ; On                 ; On                     ;
+; Remove Redundant Logic Cells                                               ; Off                ; Off                    ;
+; Remove Duplicate Registers                                                 ; On                 ; On                     ;
+; Ignore CARRY Buffers                                                       ; Off                ; Off                    ;
+; Ignore CASCADE Buffers                                                     ; Off                ; Off                    ;
+; Ignore GLOBAL Buffers                                                      ; Off                ; Off                    ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                    ;
+; Ignore LCELL Buffers                                                       ; Off                ; Off                    ;
+; Ignore SOFT Buffers                                                        ; On                 ; On                     ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                    ;
+; Optimization Technique                                                     ; Balanced           ; Balanced               ;
+; Carry Chain Length                                                         ; 70                 ; 70                     ;
+; Auto Carry Chains                                                          ; On                 ; On                     ;
+; Auto Open-Drain Pins                                                       ; On                 ; On                     ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                    ;
+; Auto ROM Replacement                                                       ; On                 ; On                     ;
+; Auto RAM Replacement                                                       ; On                 ; On                     ;
+; Auto DSP Block Replacement                                                 ; On                 ; On                     ;
+; Auto Shift Register Replacement                                            ; Auto               ; Auto                   ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto                   ;
+; Auto Clock Enable Replacement                                              ; On                 ; On                     ;
+; Strict RAM Replacement                                                     ; Off                ; Off                    ;
+; Allow Synchronous Control Signals                                          ; On                 ; On                     ;
+; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                    ;
+; Auto RAM Block Balancing                                                   ; On                 ; On                     ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                    ;
+; Auto Resource Sharing                                                      ; Off                ; Off                    ;
+; Allow Any RAM Size For Recognition                                         ; Off                ; Off                    ;
+; Allow Any ROM Size For Recognition                                         ; Off                ; Off                    ;
+; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                    ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                     ;
+; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                    ;
+; Timing-Driven Synthesis                                                    ; On                 ; On                     ;
+; Report Parameter Settings                                                  ; On                 ; On                     ;
+; Report Source Assignments                                                  ; On                 ; On                     ;
+; Report Connectivity Checks                                                 ; On                 ; On                     ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                    ;
+; Synchronization Register Chain Length                                      ; 2                  ; 2                      ;
+; PowerPlay Power Optimization During Synthesis                              ; Normal compilation ; Normal compilation     ;
+; HDL message level                                                          ; Level2             ; Level2                 ;
+; Suppress Register Optimization Related Messages                            ; Off                ; Off                    ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000                   ;
+; Number of Swept Nodes Reported in Synthesis Report                         ; 5000               ; 5000                   ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                    ;
+; Clock MUX Protection                                                       ; On                 ; On                     ;
+; Auto Gated Clock Conversion                                                ; Off                ; Off                    ;
+; Block Design Naming                                                        ; Auto               ; Auto                   ;
+; SDC constraint protection                                                  ; Off                ; Off                    ;
+; Synthesis Effort                                                           ; Auto               ; Auto                   ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                     ;
+; Pre-Mapping Resynthesis Optimization                                       ; Off                ; Off                    ;
+; Analysis & Synthesis Message Level                                         ; Medium             ; Medium                 ;
+; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto                   ;
+; Resource Aware Inference For Block RAM                                     ; On                 ; On                     ;
++----------------------------------------------------------------------------+--------------------+------------------------+
+
+
++---------------------------------+
+; Analysis & Elaboration Messages ;
++---------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Elaboration
+    Info: Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
+    Info: Processing started: Sun Mar 12 20:38:55 2017
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off nios2_quartus2_project -c nios2_quartus2_project --analysis_and_elaboration
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file first_nios2_system/synthesis/first_nios2_system.v
+    Info (12023): Found entity 1: first_nios2_system File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/first_nios2_system.v Line: 6
+Info (12021): Found 1 design units, including 1 entities, in source file first_nios2_system/synthesis/submodules/first_nios2_system_irq_mapper.sv
+    Info (12023): Found entity 1: first_nios2_system_irq_mapper File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_irq_mapper.sv Line: 31
+Info (12021): Found 2 design units, including 2 entities, in source file first_nios2_system/synthesis/submodules/altera_merlin_arbitrator.sv
+    Info (12023): Found entity 1: altera_merlin_arbitrator File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/altera_merlin_arbitrator.sv Line: 103
+    Info (12023): Found entity 2: altera_merlin_arb_adder File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/altera_merlin_arbitrator.sv Line: 228
+Info (12021): Found 1 design units, including 1 entities, in source file first_nios2_system/synthesis/submodules/first_nios2_system_rsp_xbar_mux_001.sv
+    Info (12023): Found entity 1: first_nios2_system_rsp_xbar_mux_001 File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_rsp_xbar_mux_001.sv Line: 38
+Info (12021): Found 1 design units, including 1 entities, in source file first_nios2_system/synthesis/submodules/first_nios2_system_rsp_xbar_mux.sv
+    Info (12023): Found entity 1: first_nios2_system_rsp_xbar_mux File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_rsp_xbar_mux.sv Line: 38
+Info (12021): Found 1 design units, including 1 entities, in source file first_nios2_system/synthesis/submodules/first_nios2_system_rsp_xbar_demux_002.sv
+    Info (12023): Found entity 1: first_nios2_system_rsp_xbar_demux_002 File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_rsp_xbar_demux_002.sv Line: 43
+Info (12021): Found 1 design units, including 1 entities, in source file first_nios2_system/synthesis/submodules/first_nios2_system_rsp_xbar_demux.sv
+    Info (12023): Found entity 1: first_nios2_system_rsp_xbar_demux File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_rsp_xbar_demux.sv Line: 43
+Info (12021): Found 1 design units, including 1 entities, in source file first_nios2_system/synthesis/submodules/first_nios2_system_cmd_xbar_mux.sv
+    Info (12023): Found entity 1: first_nios2_system_cmd_xbar_mux File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cmd_xbar_mux.sv Line: 38
+Info (12021): Found 1 design units, including 1 entities, in source file first_nios2_system/synthesis/submodules/first_nios2_system_cmd_xbar_demux_001.sv
+    Info (12023): Found entity 1: first_nios2_system_cmd_xbar_demux_001 File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cmd_xbar_demux_001.sv Line: 43
+Info (12021): Found 1 design units, including 1 entities, in source file first_nios2_system/synthesis/submodules/first_nios2_system_cmd_xbar_demux.sv
+    Info (12023): Found entity 1: first_nios2_system_cmd_xbar_demux File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cmd_xbar_demux.sv Line: 43
+Info (12021): Found 1 design units, including 1 entities, in source file first_nios2_system/synthesis/submodules/altera_reset_controller.v
+    Info (12023): Found entity 1: altera_reset_controller File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/altera_reset_controller.v Line: 29
+Info (12021): Found 1 design units, including 1 entities, in source file first_nios2_system/synthesis/submodules/altera_reset_synchronizer.v
+    Info (12023): Found entity 1: altera_reset_synchronizer File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/altera_reset_synchronizer.v Line: 24
+Info (12021): Found 1 design units, including 1 entities, in source file first_nios2_system/synthesis/submodules/altera_merlin_traffic_limiter.sv
+    Info (12023): Found entity 1: altera_merlin_traffic_limiter File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/altera_merlin_traffic_limiter.sv Line: 44
+Info (12021): Found 1 design units, including 1 entities, in source file first_nios2_system/synthesis/submodules/altera_avalon_st_pipeline_base.v
+    Info (12023): Found entity 1: altera_avalon_st_pipeline_base File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/altera_avalon_st_pipeline_base.v Line: 22
+Info (12021): Found 2 design units, including 2 entities, in source file first_nios2_system/synthesis/submodules/first_nios2_system_id_router_002.sv
+    Info (12023): Found entity 1: first_nios2_system_id_router_002_default_decode File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_id_router_002.sv Line: 45
+    Info (12023): Found entity 2: first_nios2_system_id_router_002 File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_id_router_002.sv Line: 86
+Info (12021): Found 2 design units, including 2 entities, in source file first_nios2_system/synthesis/submodules/first_nios2_system_id_router.sv
+    Info (12023): Found entity 1: first_nios2_system_id_router_default_decode File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_id_router.sv Line: 45
+    Info (12023): Found entity 2: first_nios2_system_id_router File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_id_router.sv Line: 86
+Info (12021): Found 2 design units, including 2 entities, in source file first_nios2_system/synthesis/submodules/first_nios2_system_addr_router_001.sv
+    Info (12023): Found entity 1: first_nios2_system_addr_router_001_default_decode File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_addr_router_001.sv Line: 45
+    Info (12023): Found entity 2: first_nios2_system_addr_router_001 File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_addr_router_001.sv Line: 86
+Info (12021): Found 2 design units, including 2 entities, in source file first_nios2_system/synthesis/submodules/first_nios2_system_addr_router.sv
+    Info (12023): Found entity 1: first_nios2_system_addr_router_default_decode File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_addr_router.sv Line: 45
+    Info (12023): Found entity 2: first_nios2_system_addr_router File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_addr_router.sv Line: 86
+Info (12021): Found 1 design units, including 1 entities, in source file first_nios2_system/synthesis/submodules/altera_avalon_sc_fifo.v
+    Info (12023): Found entity 1: altera_avalon_sc_fifo File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/altera_avalon_sc_fifo.v Line: 21
+Info (12021): Found 1 design units, including 1 entities, in source file first_nios2_system/synthesis/submodules/altera_merlin_slave_agent.sv
+    Info (12023): Found entity 1: altera_merlin_slave_agent File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/altera_merlin_slave_agent.sv Line: 34
+Info (12021): Found 1 design units, including 1 entities, in source file first_nios2_system/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+    Info (12023): Found entity 1: altera_merlin_burst_uncompressor File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/altera_merlin_burst_uncompressor.sv Line: 40
+Info (12021): Found 1 design units, including 1 entities, in source file first_nios2_system/synthesis/submodules/altera_merlin_master_agent.sv
+    Info (12023): Found entity 1: altera_merlin_master_agent File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/altera_merlin_master_agent.sv Line: 28
+Info (12021): Found 1 design units, including 1 entities, in source file first_nios2_system/synthesis/submodules/altera_merlin_slave_translator.sv
+    Info (12023): Found entity 1: altera_merlin_slave_translator File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/altera_merlin_slave_translator.sv Line: 35
+Info (12021): Found 1 design units, including 1 entities, in source file first_nios2_system/synthesis/submodules/altera_merlin_master_translator.sv
+    Info (12023): Found entity 1: altera_merlin_master_translator File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/altera_merlin_master_translator.sv Line: 30
+Info (12021): Found 1 design units, including 1 entities, in source file first_nios2_system/synthesis/submodules/first_nios2_system_mul_in.v
+    Info (12023): Found entity 1: first_nios2_system_mul_in File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_mul_in.v Line: 21
+Info (12021): Found 1 design units, including 1 entities, in source file first_nios2_system/synthesis/submodules/first_nios2_system_mul_out.v
+    Info (12023): Found entity 1: first_nios2_system_mul_out File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_mul_out.v Line: 21
+Info (12021): Found 1 design units, including 1 entities, in source file first_nios2_system/synthesis/submodules/first_nios2_system_pio_0.v
+    Info (12023): Found entity 1: first_nios2_system_pio_0 File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_pio_0.v Line: 21
+Info (12021): Found 1 design units, including 1 entities, in source file first_nios2_system/synthesis/submodules/first_nios2_system_led_pio.v
+    Info (12023): Found entity 1: first_nios2_system_led_pio File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_led_pio.v Line: 21
+Info (12021): Found 1 design units, including 1 entities, in source file first_nios2_system/synthesis/submodules/first_nios2_system_sysid.v
+    Info (12023): Found entity 1: first_nios2_system_sysid File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_sysid.v Line: 21
+Info (12021): Found 1 design units, including 1 entities, in source file first_nios2_system/synthesis/submodules/first_nios2_system_sys_clk_timer.v
+    Info (12023): Found entity 1: first_nios2_system_sys_clk_timer File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_sys_clk_timer.v Line: 21
+Info (12021): Found 5 design units, including 5 entities, in source file first_nios2_system/synthesis/submodules/first_nios2_system_jtag_uart.v
+    Info (12023): Found entity 1: first_nios2_system_jtag_uart_sim_scfifo_w File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_jtag_uart.v Line: 21
+    Info (12023): Found entity 2: first_nios2_system_jtag_uart_scfifo_w File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_jtag_uart.v Line: 77
+    Info (12023): Found entity 3: first_nios2_system_jtag_uart_sim_scfifo_r File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_jtag_uart.v Line: 162
+    Info (12023): Found entity 4: first_nios2_system_jtag_uart_scfifo_r File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_jtag_uart.v Line: 240
+    Info (12023): Found entity 5: first_nios2_system_jtag_uart File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_jtag_uart.v Line: 327
+Info (12021): Found 1 design units, including 1 entities, in source file first_nios2_system/synthesis/submodules/first_nios2_system_cpu_test_bench.v
+    Info (12023): Found entity 1: first_nios2_system_cpu_test_bench File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu_test_bench.v Line: 21
+Info (12021): Found 1 design units, including 1 entities, in source file first_nios2_system/synthesis/submodules/first_nios2_system_cpu_oci_test_bench.v
+    Info (12023): Found entity 1: first_nios2_system_cpu_oci_test_bench File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu_oci_test_bench.v Line: 21
+Info (12021): Found 1 design units, including 1 entities, in source file first_nios2_system/synthesis/submodules/first_nios2_system_cpu_jtag_debug_module_wrapper.v
+    Info (12023): Found entity 1: first_nios2_system_cpu_jtag_debug_module_wrapper File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu_jtag_debug_module_wrapper.v Line: 21
+Info (12021): Found 1 design units, including 1 entities, in source file first_nios2_system/synthesis/submodules/first_nios2_system_cpu_jtag_debug_module_sysclk.v
+    Info (12023): Found entity 1: first_nios2_system_cpu_jtag_debug_module_sysclk File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu_jtag_debug_module_sysclk.v Line: 21
+Info (12021): Found 1 design units, including 1 entities, in source file first_nios2_system/synthesis/submodules/first_nios2_system_cpu_jtag_debug_module_tck.v
+    Info (12023): Found entity 1: first_nios2_system_cpu_jtag_debug_module_tck File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu_jtag_debug_module_tck.v Line: 21
+Info (12021): Found 23 design units, including 23 entities, in source file first_nios2_system/synthesis/submodules/first_nios2_system_cpu.v
+    Info (12023): Found entity 1: first_nios2_system_cpu_ic_data_module File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu.v Line: 21
+    Info (12023): Found entity 2: first_nios2_system_cpu_ic_tag_module File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu.v Line: 86
+    Info (12023): Found entity 3: first_nios2_system_cpu_register_bank_a_module File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu.v Line: 152
+    Info (12023): Found entity 4: first_nios2_system_cpu_register_bank_b_module File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu.v Line: 218
+    Info (12023): Found entity 5: first_nios2_system_cpu_nios2_oci_debug File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu.v Line: 284
+    Info (12023): Found entity 6: first_nios2_system_cpu_ociram_sp_ram_module File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu.v Line: 425
+    Info (12023): Found entity 7: first_nios2_system_cpu_nios2_ocimem File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu.v Line: 483
+    Info (12023): Found entity 8: first_nios2_system_cpu_nios2_avalon_reg File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu.v Line: 661
+    Info (12023): Found entity 9: first_nios2_system_cpu_nios2_oci_break File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu.v Line: 753
+    Info (12023): Found entity 10: first_nios2_system_cpu_nios2_oci_xbrk File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu.v Line: 1047
+    Info (12023): Found entity 11: first_nios2_system_cpu_nios2_oci_dbrk File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu.v Line: 1255
+    Info (12023): Found entity 12: first_nios2_system_cpu_nios2_oci_itrace File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu.v Line: 1443
+    Info (12023): Found entity 13: first_nios2_system_cpu_nios2_oci_td_mode File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu.v Line: 1788
+    Info (12023): Found entity 14: first_nios2_system_cpu_nios2_oci_dtrace File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu.v Line: 1855
+    Info (12023): Found entity 15: first_nios2_system_cpu_nios2_oci_compute_tm_count File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu.v Line: 1949
+    Info (12023): Found entity 16: first_nios2_system_cpu_nios2_oci_fifowp_inc File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu.v Line: 2020
+    Info (12023): Found entity 17: first_nios2_system_cpu_nios2_oci_fifocount_inc File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu.v Line: 2062
+    Info (12023): Found entity 18: first_nios2_system_cpu_nios2_oci_fifo File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu.v Line: 2108
+    Info (12023): Found entity 19: first_nios2_system_cpu_nios2_oci_pib File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu.v Line: 2613
+    Info (12023): Found entity 20: first_nios2_system_cpu_nios2_oci_im File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu.v Line: 2681
+    Info (12023): Found entity 21: first_nios2_system_cpu_nios2_performance_monitors File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu.v Line: 2797
+    Info (12023): Found entity 22: first_nios2_system_cpu_nios2_oci File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu.v Line: 2813
+    Info (12023): Found entity 23: first_nios2_system_cpu File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu.v Line: 3379
+Info (12021): Found 1 design units, including 1 entities, in source file first_nios2_system/synthesis/submodules/first_nios2_system_onchip_mem.v
+    Info (12023): Found entity 1: first_nios2_system_onchip_mem File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_onchip_mem.v Line: 21
+Info (12021): Found 1 design units, including 1 entities, in source file nios2_quartus2_project.bdf
+    Info (12023): Found entity 1: nios2_quartus2_project
+Info (12021): Found 2 design units, including 1 entities, in source file mult.vhd
+    Info (12022): Found design unit 1: mult-rtl File: /home/natan/Documentos/DLPII/NIOS2_restored/mult.vhd Line: 16
+    Info (12023): Found entity 1: mult File: /home/natan/Documentos/DLPII/NIOS2_restored/mult.vhd Line: 5
+Warning (10037): Verilog HDL or VHDL warning at first_nios2_system_cpu.v(1756): conditional expression evaluates to a constant File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu.v Line: 1756
+Warning (10037): Verilog HDL or VHDL warning at first_nios2_system_cpu.v(1758): conditional expression evaluates to a constant File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu.v Line: 1758
+Warning (10037): Verilog HDL or VHDL warning at first_nios2_system_cpu.v(1914): conditional expression evaluates to a constant File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu.v Line: 1914
+Warning (10037): Verilog HDL or VHDL warning at first_nios2_system_cpu.v(2742): conditional expression evaluates to a constant File: /home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu.v Line: 2742
+Info (12127): Elaborating entity "mult" for the top level hierarchy
+Warning (20013): Ignored 3 assignments for entity "altera_avalon_sc_fifo" -- entity does not exist in design
+Warning (20013): Ignored 3 assignments for entity "altera_merlin_master_agent" -- entity does not exist in design
+Warning (20013): Ignored 3 assignments for entity "altera_merlin_master_translator" -- entity does not exist in design
+Warning (20013): Ignored 3 assignments for entity "altera_merlin_slave_agent" -- entity does not exist in design
+Warning (20013): Ignored 3 assignments for entity "altera_merlin_slave_translator" -- entity does not exist in design
+Warning (20013): Ignored 3 assignments for entity "altera_merlin_traffic_limiter" -- entity does not exist in design
+Warning (20013): Ignored 3 assignments for entity "altera_reset_controller" -- entity does not exist in design
+Warning (20013): Ignored 4 assignments for entity "first_nios2_system" -- entity does not exist in design
+Warning (20013): Ignored 3 assignments for entity "first_nios2_system_addr_router" -- entity does not exist in design
+Warning (20013): Ignored 3 assignments for entity "first_nios2_system_addr_router_001" -- entity does not exist in design
+Warning (20013): Ignored 3 assignments for entity "first_nios2_system_cmd_xbar_demux" -- entity does not exist in design
+Warning (20013): Ignored 3 assignments for entity "first_nios2_system_cmd_xbar_demux_001" -- entity does not exist in design
+Warning (20013): Ignored 3 assignments for entity "first_nios2_system_cmd_xbar_mux" -- entity does not exist in design
+Warning (20013): Ignored 3 assignments for entity "first_nios2_system_cpu" -- entity does not exist in design
+Warning (20013): Ignored 3 assignments for entity "first_nios2_system_id_router" -- entity does not exist in design
+Warning (20013): Ignored 3 assignments for entity "first_nios2_system_id_router_002" -- entity does not exist in design
+Warning (20013): Ignored 3 assignments for entity "first_nios2_system_irq_mapper" -- entity does not exist in design
+Warning (20013): Ignored 3 assignments for entity "first_nios2_system_jtag_uart" -- entity does not exist in design
+Warning (20013): Ignored 3 assignments for entity "first_nios2_system_led_pio" -- entity does not exist in design
+Warning (20013): Ignored 3 assignments for entity "first_nios2_system_mul_in" -- entity does not exist in design
+Warning (20013): Ignored 3 assignments for entity "first_nios2_system_mul_out" -- entity does not exist in design
+Warning (20013): Ignored 3 assignments for entity "first_nios2_system_onchip_mem" -- entity does not exist in design
+Warning (20013): Ignored 3 assignments for entity "first_nios2_system_pio_0" -- entity does not exist in design
+Warning (20013): Ignored 3 assignments for entity "first_nios2_system_rsp_xbar_demux" -- entity does not exist in design
+Warning (20013): Ignored 3 assignments for entity "first_nios2_system_rsp_xbar_demux_002" -- entity does not exist in design
+Warning (20013): Ignored 3 assignments for entity "first_nios2_system_rsp_xbar_mux" -- entity does not exist in design
+Warning (20013): Ignored 3 assignments for entity "first_nios2_system_rsp_xbar_mux_001" -- entity does not exist in design
+Warning (20013): Ignored 3 assignments for entity "first_nios2_system_sys_clk_timer" -- entity does not exist in design
+Warning (20013): Ignored 3 assignments for entity "first_nios2_system_sysid" -- entity does not exist in design
+Info (144001): Generated suppressed messages file /home/natan/Documentos/DLPII/NIOS2_restored/nios2_quartus2_project.map.smsg
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 34 warnings
+    Info: Peak virtual memory: 1286 megabytes
+    Info: Processing ended: Sun Mar 12 20:39:15 2017
+    Info: Elapsed time: 00:00:20
+    Info: Total CPU time (on all processors): 00:00:39
+
+
++--------------------------------------------+
+; Analysis & Elaboration Suppressed Messages ;
++--------------------------------------------+
+The suppressed messages can be found in /home/natan/Documentos/DLPII/NIOS2_restored/nios2_quartus2_project.map.smsg.
+
+

@@ -1,0 +1,67 @@
+Quartus Prime Archive log --	/home/natan/Documentos/DLPII/NIOS2.qarlog
+
+Archive:	/home/natan/Documentos/DLPII/NIOS2.qar
+Date:		Sun Mar 12 20:40:27 2017
+Quartus Prime		16.1.0 Build 196 10/24/2016 SJ Lite Edition
+
+	=========== Files Selected: ===========
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system.cmp
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system.qsys
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system.sopcinfo
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/first_nios2_system.qip
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/first_nios2_system.v
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/altera_avalon_sc_fifo.v
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/altera_avalon_st_pipeline_base.v
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/altera_merlin_arbitrator.sv
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/altera_merlin_master_agent.sv
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/altera_merlin_master_translator.sv
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/altera_merlin_slave_agent.sv
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/altera_merlin_slave_translator.sv
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/altera_merlin_traffic_limiter.sv
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/altera_reset_controller.sdc
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/altera_reset_controller.v
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/altera_reset_synchronizer.v
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_addr_router.sv
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_addr_router_001.sv
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cmd_xbar_demux.sv
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cmd_xbar_demux_001.sv
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cmd_xbar_mux.sv
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu.ocp
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu.sdc
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu.v
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu_ic_tag_ram.mif
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu_jtag_debug_module_sysclk.v
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu_jtag_debug_module_tck.v
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu_jtag_debug_module_wrapper.v
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu_oci_test_bench.v
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu_ociram_default_contents.mif
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu_rf_ram_a.mif
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu_rf_ram_b.mif
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_cpu_test_bench.v
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_id_router.sv
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_id_router_002.sv
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_irq_mapper.sv
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_jtag_uart.v
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_led_pio.v
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_mul_in.v
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_mul_out.v
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_onchip_mem.hex
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_onchip_mem.v
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_pio_0.v
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_rsp_xbar_demux.sv
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_rsp_xbar_demux_002.sv
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_rsp_xbar_mux.sv
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_rsp_xbar_mux_001.sv
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_sys_clk_timer.v
+/home/natan/Documentos/DLPII/NIOS2_restored/first_nios2_system/synthesis/submodules/first_nios2_system_sysid.v
+/home/natan/Documentos/DLPII/NIOS2_restored/hw_dev_tutorial.sdc
+/home/natan/Documentos/DLPII/NIOS2_restored/mult.vhd
+/home/natan/Documentos/DLPII/NIOS2_restored/nios2_quartus2_project.bdf
+/home/natan/Documentos/DLPII/NIOS2_restored/nios2_quartus2_project.qpf
+/home/natan/Documentos/DLPII/NIOS2_restored/nios2_quartus2_project.qsf
+/home/natan/Documentos/DLPII/NIOS2_restored/nios2_quartus2_project_assignment_defaults.qdf
+	======= Total: 56 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

@@ -1,0 +1,131 @@
+Restore Archived Project report for nios2_quartus2_project
+Sun Mar 12 19:51:31 2017
+Quartus Prime Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2016  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Sun Mar 12 19:51:31 2017 ;
+; Revision Name                   ; nios2_quartus2_project                ;
+; Top-level Entity Name           ; mult                                  ;
+; Family                          ; Cyclone IV E                          ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored '/home/natan/Documentos/DLPII/NIOS2.qar' into the '/home/natan/Documentos/DLPII/NIOS2_restored/' directory
+Info: Generated report 'nios2_quartus2_project.restore.rpt'
+Info (23030): Evaluation of Tcl script /root/intelFPGA_lite/16.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 1059 megabytes
+    Info: Processing ended: Sun Mar 12 19:51:31 2017
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++--------------------------------------------------------------------------------------------+
+; Files Restored                                                                             ;
++--------------------------------------------------------------------------------------------+
+; File Name                                                                                  ;
++--------------------------------------------------------------------------------------------+
+; first_nios2_system.cmp                                                                     ;
+; first_nios2_system.qsys                                                                    ;
+; first_nios2_system.sopcinfo                                                                ;
+; first_nios2_system/synthesis/first_nios2_system.qip                                        ;
+; first_nios2_system/synthesis/first_nios2_system.v                                          ;
+; first_nios2_system/synthesis/submodules/altera_avalon_sc_fifo.v                            ;
+; first_nios2_system/synthesis/submodules/altera_avalon_st_pipeline_base.v                   ;
+; first_nios2_system/synthesis/submodules/altera_merlin_arbitrator.sv                        ;
+; first_nios2_system/synthesis/submodules/altera_merlin_burst_uncompressor.sv                ;
+; first_nios2_system/synthesis/submodules/altera_merlin_master_agent.sv                      ;
+; first_nios2_system/synthesis/submodules/altera_merlin_master_translator.sv                 ;
+; first_nios2_system/synthesis/submodules/altera_merlin_slave_agent.sv                       ;
+; first_nios2_system/synthesis/submodules/altera_merlin_slave_translator.sv                  ;
+; first_nios2_system/synthesis/submodules/altera_merlin_traffic_limiter.sv                   ;
+; first_nios2_system/synthesis/submodules/altera_reset_controller.sdc                        ;
+; first_nios2_system/synthesis/submodules/altera_reset_controller.v                          ;
+; first_nios2_system/synthesis/submodules/altera_reset_synchronizer.v                        ;
+; first_nios2_system/synthesis/submodules/first_nios2_system_addr_router.sv                  ;
+; first_nios2_system/synthesis/submodules/first_nios2_system_addr_router_001.sv              ;
+; first_nios2_system/synthesis/submodules/first_nios2_system_cmd_xbar_demux.sv               ;
+; first_nios2_system/synthesis/submodules/first_nios2_system_cmd_xbar_demux_001.sv           ;
+; first_nios2_system/synthesis/submodules/first_nios2_system_cmd_xbar_mux.sv                 ;
+; first_nios2_system/synthesis/submodules/first_nios2_system_cpu.ocp                         ;
+; first_nios2_system/synthesis/submodules/first_nios2_system_cpu.sdc                         ;
+; first_nios2_system/synthesis/submodules/first_nios2_system_cpu.v                           ;
+; first_nios2_system/synthesis/submodules/first_nios2_system_cpu_ic_tag_ram.mif              ;
+; first_nios2_system/synthesis/submodules/first_nios2_system_cpu_jtag_debug_module_sysclk.v  ;
+; first_nios2_system/synthesis/submodules/first_nios2_system_cpu_jtag_debug_module_tck.v     ;
+; first_nios2_system/synthesis/submodules/first_nios2_system_cpu_jtag_debug_module_wrapper.v ;
+; first_nios2_system/synthesis/submodules/first_nios2_system_cpu_oci_test_bench.v            ;
+; first_nios2_system/synthesis/submodules/first_nios2_system_cpu_ociram_default_contents.mif ;
+; first_nios2_system/synthesis/submodules/first_nios2_system_cpu_rf_ram_a.mif                ;
+; first_nios2_system/synthesis/submodules/first_nios2_system_cpu_rf_ram_b.mif                ;
+; first_nios2_system/synthesis/submodules/first_nios2_system_cpu_test_bench.v                ;
+; first_nios2_system/synthesis/submodules/first_nios2_system_id_router.sv                    ;
+; first_nios2_system/synthesis/submodules/first_nios2_system_id_router_002.sv                ;
+; first_nios2_system/synthesis/submodules/first_nios2_system_irq_mapper.sv                   ;
+; first_nios2_system/synthesis/submodules/first_nios2_system_jtag_uart.v                     ;
+; first_nios2_system/synthesis/submodules/first_nios2_system_led_pio.v                       ;
+; first_nios2_system/synthesis/submodules/first_nios2_system_mul_in.v                        ;
+; first_nios2_system/synthesis/submodules/first_nios2_system_mul_out.v                       ;
+; first_nios2_system/synthesis/submodules/first_nios2_system_onchip_mem.hex                  ;
+; first_nios2_system/synthesis/submodules/first_nios2_system_onchip_mem.v                    ;
+; first_nios2_system/synthesis/submodules/first_nios2_system_pio_0.v                         ;
+; first_nios2_system/synthesis/submodules/first_nios2_system_rsp_xbar_demux.sv               ;
+; first_nios2_system/synthesis/submodules/first_nios2_system_rsp_xbar_demux_002.sv           ;
+; first_nios2_system/synthesis/submodules/first_nios2_system_rsp_xbar_mux.sv                 ;
+; first_nios2_system/synthesis/submodules/first_nios2_system_rsp_xbar_mux_001.sv             ;
+; first_nios2_system/synthesis/submodules/first_nios2_system_sys_clk_timer.v                 ;
+; first_nios2_system/synthesis/submodules/first_nios2_system_sysid.v                         ;
+; hw_dev_tutorial.sdc                                                                        ;
+; incremental_db/compiled_partitions/nios2_quartus2_project.db_info                          ;
+; mult.vhd                                                                                   ;
+; nios2_quartus2_project.bdf                                                                 ;
+; nios2_quartus2_project.qpf                                                                 ;
+; nios2_quartus2_project.qsf                                                                 ;
+; nios2_quartus2_project_assignment_defaults.qdf                                             ;
++--------------------------------------------------------------------------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+

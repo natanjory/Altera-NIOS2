@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sun Mar 12 20:13:03 2017
+Quartus Prime Version : 16.1.0 Build 196 10/24/2016 SJ Lite Edition
+Revision Name : nios2_quartus2_project
+Top-level Entity Name : mult
+Family : Cyclone IV E
+Device : EP4CE30F23C7
+Timing Models : Final
+Total logic elements : 79 / 28,848 ( < 1 % )
+    Total combinational functions : 79 / 28,848 ( < 1 % )
+    Dedicated logic registers : 0 / 28,848 ( 0 % )
+Total registers : 0
+Total pins : 130 / 329 ( 40 % )
+Total virtual pins : 0
+Total memory bits : 0 / 608,256 ( 0 % )
+Embedded Multiplier 9-bit elements : 8 / 132 ( 6 % )
+Total PLLs : 0 / 4 ( 0 % )
